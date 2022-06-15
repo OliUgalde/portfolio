@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>programa</title>
+</head>
+<body>
+	<form>
+	<div>
+		<select id="product" name="producto">
+			<option>seleccionar modelo</option>
+			<option id="compresor" value="compre">compresor</option>
+			<option id="secador" value="secado">secador</option>
+		</select>
+	</div>
+    <div>
+	    <select id="compresores" hidden="true" name="modelcompresor" >
+			<option>seleccionar</option>
+			<option value="flex1">flex1</option>
+			<option value="flex2">flex2</option>
+		</select>
+    </div>	
+    <div>
+		<select id="secadores" hidden="true" name="modelsecador">
+			<option>seleccionar</option>
+			<option value="flex1">sec1</option>
+			<option value="flex2">sec2</option>
+		</select>
+	</div>
+	<div>
+		<button id="add"  name= "agregar">Agregar Producto</button>
+	</div>
+	</form>
+
+	<div class="addform">
+		
+	</div>
+<script type="text/javascript" src="programa.js"></script>
+</body>
+</html>
